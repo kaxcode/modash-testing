@@ -32,3 +32,11 @@ function camelCase(string) {
     ...words.slice(1).map(w => capitalize(w)),
   ].join('');
 }
+
+const Modash = {
+  truncate,
+  capitalize,
+  camelCase,
+};
+
+export default Modash;
